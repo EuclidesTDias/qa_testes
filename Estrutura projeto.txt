@@ -1,0 +1,29 @@
+📂 src
+ ├── 📂 main
+ │   ├── 📂 java
+ │   │   ├── 📂 api
+ │   │   ├── 📂 utils
+ │   │   ├── 📄 Config.java
+ │   │   ├── 📄 BaseRequest.java
+ │
+ ├── 📂 test
+ │   ├── 📂 java
+ │   │   ├── 📂 steps
+ │   │   ├── 📂 runners
+ │   │   ├── 📂 support
+ │   │   ├── 📂 requests
+ │   │   │   ├── 📄 LoginRequest.java
+ │   │   │   ├── 📄 CarrinhoRequest.java
+ │   │   │   ├── 📄 CheckoutRequest.java
+ │   │   ├── 📄 BaseTest.java
+ │   │   ├── 📄 Hooks.java
+ │   │   ├── 📄 TestRunner.java
+ │
+ │   ├── 📂 resources
+ │   │   ├── 📂 features
+ │   │   │   ├── login.feature
+ │   │   │   ├── adicionar_produto.feature
+ │   │   │   ├── checkout.feature
+ │   │   │   ├── validacao_campos.feature
+ │
+ ├── 📄 pom.xml
